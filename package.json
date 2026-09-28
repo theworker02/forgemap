@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/forgemap",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Forge filesystem map paths across POSIX and Windows conventions.",
+  "bin": {
+    "forgemap": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/forgemap.git"
+  },
+  "homepage": "https://theworker02.github.io/forgemap/",
+  "keywords": [
+    "forge",
+    "map",
+    "path",
+    "cli",
+    "toolkit"
+  ]
+}
